@@ -1,0 +1,139 @@
+body {
+    font-family: 'Minecraftia', monospace;
+    background-color: #0f0f23;
+    color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.ai-declaration {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 0.8em;
+    text-align: right;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    color: #00cc00;
+    text-shadow: 0 0 5px #00cc00;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00cc00;
+    text-shadow: 0 0 5px #00cc00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #00cc00;
+    text-decoration: none;
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 1em;
+    text-shadow: 0 0 5px #00cc00;
+    transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+    text-shadow: 0 0 17px #00cc00;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #0f0f23;
+    color: rgba(245, 245, 245, 0.7);
+}
+
+.white {
+	color: #ffffff;
+	text-shadow: 0 0 3px #ffffff;
+}
+
+
+.projects-list a {
+    color: #535352;
+    text-shadow: none;
+	transition: none;
+}
+
+
+.projects-list a span {
+	color: inherit;
+	text-shadow: inherit;
+}
+
+projects-list .comment {
+	display: inline;
+	color: #535352;
+}
+
+
+.projects-list a:hover {
+	color: #00cc00;
+	text-shadow: 0 0 17px #00cc00;
+	transition: text-shadow 0.3s ease;
+}
+
+
+.projects-list a:hover .comment {
+	visibility: hidden;
+	color: transparent;
+}
+
+
+.projects-list a:hover .myprojects {
+    color: #d0d0cf;
+    text-shadow: 0 0 5px #d0d0cf;
+}
+
+
+.projects-list a:hover .std {
+    color: #149da9;
+    text-shadow: 0 0 5px #149da9;
+}
+
+.projects-list a:hover .white {
+    color: #ffffff;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.projects-list a:hover .get {
+    color: #fe7db3;
+    text-shadow: 0 0 5px #fe7db3;
+}
+
+.projects-list a:hover .int {
+    color: #72a5f3;
+    text-shadow: 0 0 5px #72a5f3;
+}
+
+.projects-list a:hover .equal {
+    color: #ffffff;
+    text-shadow: 0 0 3px #ffffff;
+}
