@@ -19,6 +19,35 @@ body {
     text-align: right;
 }
 
+.ai-declaration p {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	transition: opacity 1s, ease 2s; 
+}
+
+.text1 {
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.text2 {
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.ai-declaration:hover .text1 {
+	opacity: 0;
+	filter: blur(10px); /* Blur text1 */
+}
+
+.ai-declaration:hover .text2 {
+	opacity: 1;
+	filter: blur(0px); /* Show text2 without blur */
+    color: #00cc00;
+	text-shadow: 0 0 17px #00cc00;
+}
+
 header {
     text-align: center;
 }
