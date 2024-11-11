@@ -130,6 +130,11 @@ projects-list .comment {
     text-shadow: 0 0 5px #fe7db3;
 }
 
+.projects-list a:hover .lint {
+    color: #82ccdc;
+    text-shadow: 0 0 5px #82ccdc;
+}
+
 .projects-list a:hover .int {
     color: #72a5f3;
     text-shadow: 0 0 5px #72a5f3;
