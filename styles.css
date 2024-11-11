@@ -25,7 +25,7 @@ header {
 
 h1 {
     color: #00cc00;
-    text-shadow: 0 0 5px #00cc00;
+    text-shadow: 0 0 3px #00cc00;
 }
 
 main {
@@ -39,7 +39,7 @@ section {
 
 h2 {
     color: #00cc00;
-    text-shadow: 0 0 5px #00cc00;
+    text-shadow: 0 0 3px #00cc00;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -54,7 +54,7 @@ a {
     margin: 5px 0;
     display: inline-block;
     font-size: 1em;
-    text-shadow: 0 0 5px #00cc00;
+    text-shadow: 0 0 3px #00cc00;
     transition: text-shadow 0.3s ease;
 }
 
@@ -81,7 +81,7 @@ footer {
 .projects-list a {
     color: #535352;
     text-shadow: none;
-	transition: none;
+    transition: none;
 }
 
 
