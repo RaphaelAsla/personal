@@ -1,0 +1,5 @@
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######—Deployment:
+deployment:
+  tasks:
+    – export DEPLOYPATH=/home/reavowmy/public_html/
+    - /bin/cp -R * $DEPLOYPATH
