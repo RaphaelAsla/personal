@@ -86,6 +86,7 @@ a {
     font-size: 1em;
     text-shadow: 0 0 3px #00cc00;
     transition: text-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 a:hover {

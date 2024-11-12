@@ -67,7 +67,20 @@
 		<section class="contact">
 			<h2>Contact</h2>
 			<a href="https://linkedin.com/in/raphael-aslanidis/" target="_blank">[LinkedIn]</a>
-			<a href="mailto:anonymous127001f@gmail.com" target="_blank">[Email]</a>
+			<a onclick="copyOnClick()">[Email]</a>
+			<span class="white" id="copiedMessage"
+				style="opacity: 0; transition: opacity 0.5s ease; font-size: 0.8em;">Copied!</span>
+
+			<script>
+				function copyOnClick() {
+					navigator.clipboard.writeText("anonymous127001@gmail.com");
+					const copiedMessage = document.getElementById("copiedMessage");
+					copiedMessage.style.opacity = "1";  // Fade in the "Copied!" message
+					setTimeout(() => {
+						copiedMessage.style.opacity = "0";  // Fade out the message after 2 seconds
+					}, 600);
+				}
+			</script>
 		</section>
 		<section class="resume">
 			<h2>Resume</h2>
