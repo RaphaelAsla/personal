@@ -8,13 +8,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow: auto;
+    cursor: default;
 }
 
 .ai-declaration {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: rgba(255, 255, 255, 0.1);
     font-size: 0.8em;
     text-align: right;
 }
@@ -23,11 +23,11 @@ body {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
-	transition: opacity 1s, ease 2s; 
+	transition: ease 2s; 
 }
 
 .text1 {
-  opacity: 1;
+  opacity: 0.15;
   filter: blur(0px);
 }
 
@@ -38,12 +38,13 @@ body {
 
 .ai-declaration:hover .text1 {
 	opacity: 0;
-	filter: blur(10px); /* Blur text1 */
+	filter: blur(10px); 
+	text-shadow: 0 0 17px #00cc00;
 }
 
 .ai-declaration:hover .text2 {
 	opacity: 1;
-	filter: blur(0px); /* Show text2 without blur */
+	filter: blur(0px); 
     color: #00cc00;
 	text-shadow: 0 0 17px #00cc00;
 }
@@ -93,12 +94,13 @@ a:hover {
 
 footer {
     position: fixed;
+    font-size: 0.8em;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     background-color: #0f0f23;
-    color: rgba(245, 245, 245, 0.5);
+    color: rgba(245, 245, 245, 0.1);
 }
 
 .white {
